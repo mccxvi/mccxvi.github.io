@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+a {
+	color: black;
+	font-size: 24px;
+	font-family: "TexBold";
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#hydrae {
+	display: inline;
+    vertical-align: middle;
+    height: 45%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+#warpshift {
+    display: inline;
+    vertical-align: middle;
+    height: 45%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+#gadaszewski {
+    display: inline;
+    vertical-align: middle;
+    height: 45%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s ease;
+}

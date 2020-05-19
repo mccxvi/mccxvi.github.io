@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+}
+
+a {
+	color: black;
+	font-size: 24px;
+}
+
+.hrefcolor:hover {
+		color: white;
+	text-decoration: none;
+	background-color: black;
+}
+
+.text-main {
+	font-family: "TexBold";
+}
+
+p {
+	font-family: "TexBold";
+}
+
+a {
+	color: black;
+	font-size: 15px;
+}
+
+.about-image {
+	padding-top: 15px;
+}
+
+.descritption {
+	padding-bottom: 25px;
+	padding-top: 50px;
+	margin-right: 35%;
+	margin-left: 35%;
+}
+
+b {
+	font-family: TexBoldItalic;
+}
