@@ -31,6 +31,20 @@ a:hover {
     transition: .5s ease;
 }
 
+#adrianwrobel{
+    display: inline;
+    vertical-align: middle;
+    height: 45%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
 #warpshift {
     display: inline;
     vertical-align: middle;

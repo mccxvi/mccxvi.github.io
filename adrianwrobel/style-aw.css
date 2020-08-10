@@ -1,0 +1,134 @@
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+
+a {
+	color: white;
+	font-family: "TexBold";
+}
+
+p {
+    color: white;
+    font-family: "TexBold";
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+.backgroundimage {
+  background-image: url("awbg.png");
+
+  min-height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: auto;
+}
+
+.video1 {
+  background-image: url("video1.png");
+
+  min-height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: auto;
+}
+
+.video2 {
+  background-image: url("video2.png");
+
+  min-height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: auto;
+}
+
+.video3 {
+  background-image: url("video3.png");
+
+  min-height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: auto;
+}
+
+.video4 {
+  background-image: url("video4.png");
+
+  min-height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: auto;
+}
+h2 {
+    color: white;
+    font-family: "TexBold";
+    font-size: 56px;
+}
+
+.content-all {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+}
+
+.content-video {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+}
+
+.watchnow {
+    font-size: 16px;
+}
+
+.info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.p-4 {
+    padding: 6rem!important;
+}
+
+.sd {
+    font-family: "TexBold";
+}
+
+.content-info {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+}
+
+.inactive-text {
+  color: #D4D4D4
+}
