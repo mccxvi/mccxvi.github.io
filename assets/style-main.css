@@ -1,15 +1,21 @@
 html,
 body {
-  height: 100%;
+  overflow-y: hidden;
+  background-color: #080808;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 a {
-	color: black;
-	font-size: 24px;
+	color: white;
+	font-size: 14px;
 }
 
 a:hover {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -19,4 +25,44 @@ a:hover {
 
 p {
 	font-family: "TexBold";
+	color: white;
+}
+
+.lnk-buttons {
+	font-family: TexBold;
+}
+
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h2 {
+  font-size: 24px;
+  color: #fff;
+  font-family: "TexBold";
+}
+
+.active-lnk {
+  color: #E6FCFF;
 }

@@ -1,17 +1,21 @@
 html,
 body {
   height: 100%;
+  background-color: #080808;
 }
 
 a {
-	color: black;
-	font-size: 24px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
 }
 
-.hrefcolor:hover {
-		color: white;
+a:hover {
+	color: white;
+}
+.lnk-buttons {
+	font-family: TexBold;
 	text-decoration: none;
-	background-color: black;
 }
 
 .text-main {
@@ -20,11 +24,7 @@ a {
 
 p {
 	font-family: "TexBold";
-}
-
-a {
-	color: black;
-	font-size: 15px;
+	color: white;
 }
 
 .about-image {
@@ -40,4 +40,18 @@ a {
 
 b {
 	font-family: TexBoldItalic;
+}
+
+.img-cover {
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.active-lnk {
+  color: #E6FCFF;
+}
+
+.main-cont {
+ font-size: 20px;
 }

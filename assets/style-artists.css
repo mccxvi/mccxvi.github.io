@@ -1,74 +1,67 @@
 html,
 body {
   height: 100%;
+  background-color: #080808;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 a {
-	color: black;
-	font-size: 24px;
+	color: white;
+	font-size: 14px;
 	font-family: "TexBold";
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: none;
+    color: white;
+}
+
+.overlay-name:hover {
+  opacity: 1;
+}
+
+.content-pos {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.overlay-name {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+    opacity: 0;
+}
+
+.name-inner {
+    position: absolute;
+    font-size: 18px;
     color: black;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-
-
-#hydrae {
-	display: inline;
-    vertical-align: middle;
-    height: 45%;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: .5s ease;
+#img-cover:hover {
+  -webkit-transition: all .5s 0s ease;
+  -moz-transition: all .5s 0s ease;
+  transition: all .5s 0s ease;
 }
 
-#adrianwrobel{
-    display: inline;
-    vertical-align: middle;
-    height: 45%;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: .5s ease;
-}
-
-#warpshift {
-    display: inline;
-    vertical-align: middle;
-    height: 45%;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: .5s ease;
-}
-
-#gadaszewski {
-    display: inline;
-    vertical-align: middle;
-    height: 45%;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: .5s ease;
+.active-lnk {
+  color: #E6FCFF;
 }
