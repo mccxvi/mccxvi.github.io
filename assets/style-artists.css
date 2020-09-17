@@ -2,6 +2,8 @@ html,
 body {
   height: 100%;
   background-color: #080808;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 *,
@@ -24,14 +26,87 @@ a:hover {
     color: white;
 }
 
-.overlay-name:hover {
-  opacity: 1;
+.active-lnk {
+  color: #E6FCFF;
 }
 
-.content-pos {
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-left: 50px;
+.hydrae {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://i.imgur.com/nZHUtNw.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform .5s;
+}
+
+.gadaszewski {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://i.imgur.com/n6QPuQ4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform .5s;
+}
+
+.adrian {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../adrianwrobel/aw_full.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform .5s;
+}
+
+.hubert {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://i.imgur.com/YVaPX0p.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform .5s;
+}
+
+.warpshift {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://i.imgur.com/qom4NxZ.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform .5s;
+}
+
+.content-inner {
+    height: 100%;
+}
+
+.overlay-name:hover {
+  opacity: 1;
+  text-align: center;
+}
+
+.hydrae:hover {
+  transform: scale(1.1);
+}
+
+.gadaszewski:hover {
+  transform: scale(1.1);
+}
+
+.adrian:hover {
+  transform: scale(1.1);
+}
+
+.hubert:hover {
+  transform: scale(1.1);
+}
+
+.warpshift:hover {
+  transform: scale(1.1);
 }
 
 .overlay-name {
@@ -43,25 +118,12 @@ a:hover {
     -webkit-transition: .4s;
     transition: .4s;
     opacity: 0;
+    text-align: center;
 }
 
 .name-inner {
     position: absolute;
-    font-size: 18px;
-    color: black;
-    background-color: white;
-    margin-left: 25px;
-    margin-top: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#img-cover:hover {
-  -webkit-transition: all .5s 0s ease;
-  -moz-transition: all .5s 0s ease;
-  transition: all .5s 0s ease;
-}
-
-.active-lnk {
-  color: #E6FCFF;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.3rem;
 }
