@@ -1,0 +1,128 @@
+html,
+body {
+  background-color: #080808;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	color: white;
+	font-size: 14px;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.text-main {
+	font-family: "TexBold";
+}
+
+p {
+	font-family: "TexBold";
+	color: white;
+}
+
+.lnk-buttons {
+	font-family: "TexBold";
+}
+
+.active-lnk {
+  color: #E6FCFF;
+}
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+.hover-1 img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s;
+}
+
+video {
+  height: 100%;
+  position: absolute;
+  transform: translateX(-12%);
+  top: 0;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.hover-1-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.4s;
+}
+
+
+.hover-1-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover-1:hover .hover-1-content {
+  bottom: 2rem;
+}
+
+.hover-1:hover .hover-1-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-1:hover video {
+  opacity: 1;
+}
+
+.hover-1:hover img {
+  left: 0;
+}
+
+.hover-1:hover .hover-overlay {
+  opacity: 0;
+}
+
+h3 {
+	font-family: "TexRegular";
+	letter-spacing: 0.288889rem;
+	font-size: 1rem;
+}
+
+.content-container {
+  padding-top: 180px;
+}
