@@ -359,6 +359,17 @@ column-width: 100%;
     opacity: 1;
 }
 
+.artwork-videos {
+    width: 100%;
+    position: absolute;
+    transform: translateX(0%);
+    transform: translateY(0%);
+    top: 0;
+    transition: all 0.3s;
+    opacity: 1;
+    z-index: 0;
+}
+
 .text-header-press {
   padding: 15px;
 }
