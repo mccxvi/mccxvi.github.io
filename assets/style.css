@@ -1,0 +1,159 @@
+@font-face {
+  font-family: A-E-Med;
+  src: url("fonts/Archivo_Expanded-Medium.ttf");
+}
+
+@font-face {
+  font-family: A-E-Bold;
+  src: url("fonts/Archivo_Expanded-Bold.ttf");
+}
+
+@font-face {
+  font-family: A-E-Reg;
+  src: url("fonts/Archivo_Expanded-Regular.ttf");
+}
+
+@font-face {
+  font-family: A-Bold;
+  src: url("fonts/Archivo-Bold.ttf");
+}
+
+@font-face {
+  font-family: A-Med;
+  src: url("fonts/Archivo-Medium.ttf");
+}
+
+@font-face {
+  font-family: A-Reg;
+  src: url("fonts/Archivo-Regular.ttf");
+}
+
+@font-face {
+  font-family: A-Light;
+  src: url("fonts/Archivo-Light.ttf");
+}
+
+body {
+  background-color: #FFF;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  font-family: A-E-Bold;
+  font-size: 2.2rem;
+  color: #000;
+}
+
+.title-txt {
+  font-family: A-E-Med;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s;
+}
+
+.p-custom {
+  padding: 5rem!important;
+}
+
+.footer-txt {
+  font-family: A-E-Reg;
+  color: #000;
+}
+
+.info-txt {
+  font-family: A-Med;
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.nav {
+  --bs-nav-link-padding-x: 0rem;
+  --bs-nav-link-padding-y: 0rem;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-txt {
+  color: #000;
+  font-family: A-Reg;
+  font-size: 1.2rem;
+  padding-right: 0.3rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  display: block;
+  text-decoration: none;
+}
+
+.header-txt:hover {
+  color: #fff;
+  background-color: #000;
+  font-family: A-Reg;
+  font-size: 1.2rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  display: block;
+  text-decoration: none;
+}
+
+video.avs {
+  width: 100%;
+}
+
+.artwork-videos {
+    width: 100%;
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.item-title {
+  font-family: A-E-Bold;
+  margin-bottom: 0rem;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.item-sub {
+  font-family: A-Reg;
+  margin-bottom: 0rem;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.hover-line {
+  font-family: A-E-Reg;
+}
+
+.hover-line:hover {
+  font-family: A-E-Reg;
+  text-decoration: underline;
+}
